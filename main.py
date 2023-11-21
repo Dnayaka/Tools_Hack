@@ -38,7 +38,7 @@ def menu():
     elif p == "1":
         q = input("Do you complete install the setup?(Y/N): ")
         if q == "Y" or q == "y":
-            os.system("python DDOS/DDOS.py")
+            os.system("python HASOKI/main.py")
         elif q == "N" or q == "n":
             os.system("python setup.py")
             menu()
@@ -49,7 +49,7 @@ def menu():
     elif p == "2":
         q = input("Do you complete install the setup?(Y/N): ")
         if q == "Y" or q == "y": 
-            os.system("python PHISING/MaxPhisher/maxphisher.py")
+            os.system("python MaxPhisher/maxphisher.py")
         elif q == "N" or q == "n":
             os.system("python setup.py")
             menu()
@@ -59,7 +59,7 @@ def menu():
     elif p == "3":
         q = input("Do you complete install the setup?(Y/N): ")
         if q == "Y" or q == "y":
-            os.system("python CRACK/SMBF.py")
+            os.system("python CRACK_FB/SMBF.py")
         elif q == "N" or q == "n":
             os.system("python setup.py")
             menu()
@@ -69,7 +69,7 @@ def menu():
     elif p == "4":
         q = input("Do you complete install the setup?(Y/N): ")
         if q == "Y" or q == "y":
-            os.system("python PHISING/GhostTrack/GhostTR.py")
+            os.system("python GhostTrack/GhostTR.py")
         elif q == "N" or q == "n":
             os.system("python setup.py")
             menu()
