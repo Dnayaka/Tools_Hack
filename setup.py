@@ -1,5 +1,10 @@
 import os
 
+os.system("pkg install git")
+os.system("git clone https://github.com/cutipu/HASOKI.git")
+os.system("git clone https://github.com/HunxByts/GhostTrack.git")
+os.system("git clone https://github.com/KasRoudra/MaxPhisher.git")
+os.system("git clone https://github.com/Dnayaka/CRACK_FB.git")
 os.system("pip3 install beautifulsoup4")
 os.system("pip3 install phonenumbers")
 os.system("pip3 install rich")
