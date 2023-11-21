@@ -1,5 +1,4 @@
 import os
-
 os.system("pkg install git")
 os.system("git clone https://github.com/cutipu/HASOKI.git")
 os.system("git clone https://github.com/HunxByts/GhostTrack.git")
